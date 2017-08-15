@@ -1,0 +1,46 @@
+$(function(){
+   alert("hello world!");
+});
+
+$符的所有权问题
+
+jQuery库在base库之前引用
+  1. var $$=jQuery 
+  2. 将$换成jQuery
+在之后引用
+  1. var $$=jQuery
+
+jQuery.noConflict();//删除所有权
+
+常规选择器
+1. 简单
+    id  #
+    class .
+    标签
+     .size() //方法
+     .get()
+     .eq()
+     .length// 属性
+     // css是用来添加样式的 而jQuery是用来添加行为的
+#box > p //css
+$('#box > p')
+2. 进阶
+3. 高级
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
